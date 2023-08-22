@@ -12,6 +12,7 @@
     - $I^{HR}$: 실제 HR이미지를 의미
     - $G_{\theta_G}(I^{L R})$: LR이미지 $I^{LR}$을 입력받아 HR을 생성하는 함수
 
-## 📌 학습 결과
+## 📌 모델 학습
+- 학습데이터: [VOC2012](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/#devkit)
 - 모델링이 잘 되었는지 확인하는 용도이므로 Epoch 20회만 학습
 ![Training Result](./statics/training_result.png)
